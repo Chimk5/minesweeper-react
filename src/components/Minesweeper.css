@@ -1,0 +1,81 @@
+.minesweeper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+  background-color: #c0c0c0;
+  border: 2px inset #c0c0c0;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.game-info {
+  display: flex;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+
+.info-item .label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.info-item .value {
+  font-size: 1.2rem;
+  color: #000;
+  background-color: #000;
+  color: #ff0000;
+  padding: 2px 8px;
+  border: 1px inset #808080;
+  font-family: 'Courier New', monospace;
+  min-width: 40px;
+  text-align: center;
+}
+
+.new-game-btn {
+  background-color: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  padding: 8px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-game-btn:hover {
+  background-color: #d0d0d0;
+}
+
+.new-game-btn:active {
+  border: 2px inset #c0c0c0;
+}
+
+.game-status {
+  min-width: 120px;
+  text-align: right;
+}
+
+.status-text {
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+}
